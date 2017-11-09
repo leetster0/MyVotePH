@@ -2,6 +2,10 @@ README
 
 myVotePH User Manual
 
+This is the final project of Paolo Roxas for the CS50 (CPSC 100 at Yale) “Introduction to Programming” class.
+It was designed to be run on the Cloud9 IDE and utilizes PHP, javascript, SQL, HTML, and CSS.
+It also uses the Twitter API, the Chart.js library, and one of CS50’s own libraries.
+
 myVotePH is a website that seeks to track the progress of the 2016 Philippine Presidential Elections.
 To do this, it monitors all twitter activity related to each of the five candidates, and displays
 this data in three sections: Twitter Activity, Recent Tweets, and Top Tweets.
@@ -58,7 +62,7 @@ CS50's render function has been changed so that it renders header, then twitter_
 The public/home.php contains the home page of the website. it contains links to gpoe.php, jbinay.php,
 rduterte.php, and msantiago.php, and mroxas.php, which render each of the candidate's pages.
 
-header.php displays the candidates image.
+header.php displays the candidate’s image.
 footer.php merely displays some footer text.
 twitter_form.php displays the middle of the webpage. it calls the javascript functions plot, fetch_recent, and fetch_top.
 plot takes information from fetch.php on how many tweets were made per hour, then displays the information in a graph.
